@@ -1,0 +1,68 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up"],
+         "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day"],
+         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+         "context_set": ""
+        },
+        {"tag": "age",
+         "patterns": ["how old", "how old is tim", "what is your age", "how old are you", "age?"],
+         "responses": ["I am 5 weeks old!", "5 weeks young!"],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "name?", "your name?"],
+         "responses": ["You can call me Arthur.", "I'm Arthur!", "Name is Arthur."],
+         "context_set": "usersName"
+        },
+        {"tag": "usersName",
+         "patterns": [],
+         "responses": ["Thats a cool name", "Nice to meet you"],
+         "context_set": ""
+        },
+        {"tag": "specialisation",
+         "patterns": ["What do you specialise in?", "Specilisation?", "Purpose?", "What's your purpose?", "What do you do"],
+         "responses": ["I know all about giant pandas", "I answer questions about pandas"],
+         "context_set": ""
+        },
+        {"tag": "hibernate",
+         "patterns": ["Do pandas hibernate?", "Do giant pandas hibernate?", "Do pandas sleep over winter?"],
+         "responses": ["Pandas do not hibernate!", "Giant Pandas don't hibernate.", "They don't hibernate"],
+         "context_set": ""
+        },
+        {"tag": "attackHumans",
+         "patterns": ["Do giant pandas attack humans?", "Do pandas attack humans?", "Are pandas aggresive towards humans?"],
+         "responses": ["Pandas can attack humans.", "Pandas do attack humans.", "Yes they do."],
+         "context_set": ""
+	},
+        {"tag": "pandaFamily",
+         "patterns": ["What family is the panda a part of", "panda family", "panda part of?"],
+         "responses": ["Bear ancestor", "Ursidae.", "Ursidae (bear)"],
+         "context_set": ""
+        },
+        {"tag": "pandaFood",
+         "patterns": ["What foods do pandas eat", "panda eat?", "What foods do pandas eat?", "Food?"],
+         "responses": ["Mainly bamboo", "Predominatly bamboo", "bamboo, honeys, eggs, fish, yams, shrub leaves, oranges, and bananas"],
+         "context_set": ""
+        },
+        {"tag": "pandaMammal",
+         "patterns": ["Is the Giant Panda a mammal?", "Panda mammal?", "Mammal", "Giant panda is mammal?"],
+         "responses": ["Pandas are mammals"],
+         "context_set": ""
+        },
+        {"tag": "pandaLocation",
+         "patterns": ["Where do Giant Pandas live?", "Panda live?", "On what continuents pandas live?", "Where pandas live?"],
+         "responses": ["Sichuan province, Shaanxi and Gansu provinces", "Sichuan province, Shaanxi and Gansu provinces, China", "China", "a few mountain ranges in central China"],
+         "context_set": ""
+        },
+        {"tag": "pandaEndangered",
+         "patterns": ["Why is the Giant Panda an endangered species?", "Is panda endangered species?", "Panda Endangered?", "Endangered?"],
+         "responses": ["Pandas are endangered because they are threatened by habitat loss", "Pandas are threatened by continued habitat loss and by a very low birthrate"],
+         "context_set": ""
+        }
+   ]
+}

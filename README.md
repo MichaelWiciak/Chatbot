@@ -1,4 +1,4 @@
-# Chatbot Project
+# Giant Pandas Chatbot
 
 This project is a basic chatbot designed to interact with users by responding to various predefined queries about Giant Pandas. The chatbot is built using Python and utilizes Natural Language Processing (NLP) techniques with the help of libraries such as `nltk`, `tflearn`, and `tensorflow`.
 
